@@ -1,0 +1,196 @@
+/* Name block */
+
+header {
+    background-color:#ffffff;
+    height: 100px;
+    width: 100%;
+    border-bottom:3px solid #cccccc;
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+    padding: 5px;
+    display: inline-block;
+}
+
+h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    text-align: center;
+    display: inline-block;
+    block-size: 35%;
+    background-color: #4aaaa5
+}
+
+/* Navigation */
+nav {
+    display: inline-block;
+    overflow: hidden;
+    align-content: right;
+    justify-content: right;
+}
+
+.active {
+    color: #666666;
+}
+
+a:hover {
+    background-color: #ddd; 
+    color: #4aaaa5;
+}
+
+.topnav {
+    display: inline-block;
+    background-color:#ffffff;
+    height: 75px;
+    width: 100%;
+    border-color: #cccccc;
+    border-bottom-style: solid;
+}   
+
+/* Main Body */
+.site-container {
+    width: 100%;
+    background-color: #DCDCDC;
+    align-items: center;
+}
+
+.site-header {
+    width: 100%;
+    height: 50px;
+    background: #ffffff;
+    margin-right: 5px;
+}
+
+.container {
+    width: 960px;
+    height: 550px;
+    text-align: justify;
+    text-overflow: inherit;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    box-sizing: content-box;
+    box-align: center;
+}
+
+img {
+    padding: 10px;
+    float: left;
+    clear: both;
+}
+
+h2 {
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #ffffff
+}
+
+body {
+    background-color:#ffffff;
+    border-color: #dddddd;
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+    height: 500px;
+}
+
+p {
+    margin-left: 10px;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+}
+
+/* Contact me */
+.container-contact {
+    width: 960px;
+    height: 550px;
+    text-align: justify;
+    text-overflow: inherit;
+    flex-wrap: wrap;
+    box-sizing: content-box;
+    box-align: center;
+    background-color: #DCDCDC;
+}
+.contactme {
+    width: 500px; 
+    height: 400px;
+    padding: 20px 15px 20px 15px; 
+    border: 3px solid #ccc;
+    border-radius: 0px;
+    box-sizing: border-box; 
+    margin: 20px auto 0 auto;
+    resize: vertical;
+    background-color: #ffffff
+}
+
+input[type=text] {
+    background-color:#ffffff;
+    color: #777777;
+    height: 20px;
+    width: 300px;
+    margin: auto;
+    padding: 8px 20px 8px 20px;
+    border: 1px solid #777777;;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}   
+
+
+/* Portfolio grid */
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    align-content: center;
+    text-align: justify;
+}
+
+.row {
+    width: 50%;
+    padding: 10px;
+    align-content: right;
+    display: grid;
+
+}
+
+h3 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    text-align: center;
+    display: table-caption;
+    block-size: 35%;
+    background-color: #4aaaa5;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
